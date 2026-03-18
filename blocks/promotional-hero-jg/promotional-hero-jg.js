@@ -395,7 +395,6 @@ export default function decorate(block) {
     }
   });
 
-
   if (typeof block._promotionalHeroCleanup === 'function') {
     block._promotionalHeroCleanup();
     delete block._promotionalHeroCleanup;
