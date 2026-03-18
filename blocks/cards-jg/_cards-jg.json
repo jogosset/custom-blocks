@@ -1,24 +1,24 @@
 {
   "definitions": [
     {
-      "title": "Cards V3",
+      "title": "Cards (JPG)",
       "id": "cards-jg",
       "filter": "cards-jg",
       "plugins": {
         "da": {
-          "title": "Cards V3",
+          "title": "Cards (JPG)",
           "rows": 1,
           "columns": 5
         }
       }
     },
     {
-      "title": "Card V3",
+      "title": "Card (JPG)",
       "id": "card-jg",
       "model": "card-jg",
       "plugins": {
         "da": {
-          "title": "Card V3",
+          "title": "Card (JPG)",
           "rows": 1,
           "columns": 5,
           "fields": [

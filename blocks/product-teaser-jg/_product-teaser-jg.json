@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "Product Teaser V2",
+      "title": "Product Teaser (JPG)",
       "id": "product-teaser-jg",
       "model": "product-teaser-jg",
       "plugins": {
