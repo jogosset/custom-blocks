@@ -50,7 +50,7 @@
                   "selector": "div:nth-child(3)>div:nth-child(2)"
                 }
               ],
-              "unsafeHTML": "<div class=\"hero-jg\"><div><div><picture><img src=\"media_placeholder.jpeg\" alt=\"Hero image\"></picture><h2>Hero Title</h2><h3>Subtitle</h3><p>A short description of the hero section.</p><p><a href=\"#\">Learn More</a></p></div></div><div><div>text-color</div><div>#ffffff</div></div><div><div>cta-button-opacity</div><div>24</div></div></div>"
+              "unsafeHTML": "<div class=\"hero-jg\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture><h2>Hero Title</h2><h3>Subtitle</h3><p>A short description of the hero section.</p><p><a href=\"#\">Learn More</a></p></div></div><div><div>text-color</div><div>#ffffff</div></div><div><div>cta-button-opacity</div><div>24</div></div></div>"
             }
           }
         },
@@ -63,7 +63,7 @@
               "title": "Cards V3",
               "rows": 1,
               "columns": 5,
-              "unsafeHTML": "<div class=\"cards-jg\"><div><div><picture><img src=\"media_placeholder.jpeg\" alt=\"Card image\"></picture></div><div>Card Title</div><div><p>Card body text goes here.</p></div><div>#f5f5f5</div><div>#333333</div></div></div>"
+              "unsafeHTML": "<div class=\"cards-jg\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div>Card Title</div><div><p>Card body text goes here.</p></div><div>#f5f5f5</div><div>#333333</div></div></div>"
             }
           }
         },
