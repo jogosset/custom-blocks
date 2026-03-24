@@ -250,6 +250,7 @@
   border: 1px solid var(--color-neutral-200, #ebebeb);
   border-radius: 12px;
   overflow: hidden;
+  counter-reset: product-rank;
 }
 
 .ad-top-product {
@@ -281,9 +282,6 @@
   flex-shrink: 0;
 }
 
-.ad-top-products {
-  counter-reset: product-rank;
-}
 
 .ad-top-product:first-child::before {
   background: var(--color-brand-1000, #000);

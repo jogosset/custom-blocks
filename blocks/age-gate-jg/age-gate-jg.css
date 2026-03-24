@@ -9,9 +9,8 @@ body.age-gate-jg-open {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.85);
+  background: rgb(0 0 0 / 85%);
   backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
   opacity: 1;
   transition: opacity 0.4s ease;
 }
@@ -28,7 +27,7 @@ body.age-gate-jg-open {
   max-width: 460px;
   width: 90%;
   text-align: center;
-  box-shadow: 0 32px 80px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 32px 80px rgb(0 0 0 / 45%);
 }
 
 .age-gate-jg-heading {

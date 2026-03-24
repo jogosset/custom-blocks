@@ -34,7 +34,7 @@
 .cards-jg .cards-jg-title {
   font-size: 1.25rem;
   font-weight: 700;
-  margin: 0 0 8px 0;
+  margin: 0 0 8px;
   color: inherit;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .cards-jg .cards-jg-body-text p {
-  margin: 0 0 8px 0;
+  margin: 0 0 8px;
 }
 
 .cards-jg .cards-jg-body-text p:last-child {
