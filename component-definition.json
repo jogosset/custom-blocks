@@ -13,44 +13,17 @@
               "rows": 1,
               "columns": 1,
               "fields": [
-                {
-                  "name": "image",
-                  "selector": "div:nth-child(1)>div:nth-child(1)>picture:nth-child(1)>img[src]"
-                },
-                {
-                  "name": "imageAlt",
-                  "selector": "div:nth-child(1)>div:nth-child(1)>picture:nth-child(1)>img[alt]"
-                },
-                {
-                  "name": "title",
-                  "selector": "div:nth-child(1)>div:nth-child(1)>h2:nth-child(2)"
-                },
-                {
-                  "name": "subtitle",
-                  "selector": "div:nth-child(1)>div:nth-child(1)>h3:nth-child(3)"
-                },
-                {
-                  "name": "description",
-                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(4)"
-                },
-                {
-                  "name": "ctaLabel",
-                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(5)>a:nth-child(1)"
-                },
-                {
-                  "name": "ctaUrl",
-                  "selector": "div:nth-child(1)>div:nth-child(1)>p:nth-child(5)>a:nth-child(1)[href]"
-                },
-                {
-                  "name": "text-color",
-                  "selector": "div:nth-child(2)>div:nth-child(2)"
-                },
-                {
-                  "name": "cta-button-opacity",
-                  "selector": "div:nth-child(3)>div:nth-child(2)"
-                }
+                { "name": "image", "selector": "div:nth-child(1)>picture>img[src]" },
+                { "name": "imageAlt", "selector": "div:nth-child(1)>picture>img[alt]" },
+                { "name": "heading", "selector": "div:nth-child(1)>h2" },
+                { "name": "subtitle", "selector": "div:nth-child(1)>h3" },
+                { "name": "text", "selector": "div:nth-child(1)>p:not(:last-child)" },
+                { "name": "ctaText", "selector": "div:nth-child(1)>p:last-child>a" },
+                { "name": "ctaUrl", "selector": "div:nth-child(1)>p:last-child>a[href]" },
+                { "name": "textColor", "selector": "div:nth-child(2)>div:nth-child(2)" },
+                { "name": "ctaButtonOpacity", "selector": "div:nth-child(3)>div:nth-child(2)" }
               ],
-              "unsafeHTML": "<div class=\"hero-jg\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture><h2>Hero Title</h2><h3>Subtitle</h3><p>A short description of the hero section.</p><p><a href=\"#\">Learn More</a></p></div></div><div><div>text-color</div><div>#ffffff</div></div><div><div>cta-button-opacity</div><div>24</div></div></div>"
+              "unsafeHTML": "<div class=\"hero-jg\"><div><div><picture></picture><h2>Hero Title</h2><h3>Subtitle</h3><p>A short description of the hero section.</p><p><a href=\"#\">Learn More</a></p></div></div><div><div>text-color</div><div>#ffffff</div></div><div><div>cta-button-opacity</div><div>24</div></div></div>"
             }
           }
         },
@@ -63,7 +36,7 @@
               "title": "Cards V3",
               "rows": 1,
               "columns": 5,
-              "unsafeHTML": "<div class=\"cards-jg\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div>Card Title</div><div><p>Card body text goes here.</p></div><div>#f5f5f5</div><div>#333333</div></div></div>"
+              "unsafeHTML": "<div class=\"cards-jg\"><div><div><picture></picture></div><div>Card Title</div><div><p>Card body text goes here.</p></div><div>#f5f5f5</div><div>#333333</div></div></div>"
             }
           }
         },
@@ -77,31 +50,14 @@
               "rows": 1,
               "columns": 5,
               "fields": [
-                {
-                  "name": "image",
-                  "selector": "div:nth-child(1)>picture>img[src]"
-                },
-                {
-                  "name": "imageAlt",
-                  "selector": "div:nth-child(1)>picture>img[alt]"
-                },
-                {
-                  "name": "title",
-                  "selector": "div:nth-child(2)"
-                },
-                {
-                  "name": "body",
-                  "selector": "div:nth-child(3)"
-                },
-                {
-                  "name": "background-color",
-                  "selector": "div:nth-child(4)"
-                },
-                {
-                  "name": "text-color",
-                  "selector": "div:nth-child(5)"
-                }
-              ]
+                { "name": "image", "selector": "div:nth-child(1)>picture>img[src]" },
+                { "name": "imageAlt", "selector": "div:nth-child(1)>picture>img[alt]" },
+                { "name": "title", "selector": "div:nth-child(2)" },
+                { "name": "text", "selector": "div:nth-child(3)" },
+                { "name": "backgroundColor", "selector": "div:nth-child(4)" },
+                { "name": "textColor", "selector": "div:nth-child(5)" }
+              ],
+              "unsafeHTML": "<div class=\"card-jg\"><div><div><picture></picture></div><div>Card Title</div><div><p>Card body text.</p></div><div>#f5f5f5</div><div>#333333</div></div></div>"
             }
           }
         },
@@ -121,7 +77,7 @@
           "id": "promotional-hero-jg",
           "plugins": {
             "da": {
-              "unsafeHTML": "<div class=\"promotional-hero-jg\"><div><div><picture><source type=\"image/webp\" srcset=\"\"><source type=\"image/jpeg\" srcset=\"\"><img loading=\"lazy\"></picture></div><div><h2></h2><p></p></div><div><p></p></div></div><div><div>cta-button-color</div><div></div></div><div><div>cta-text-color</div><div></div></div></div>"
+              "unsafeHTML": "<div class=\"promotional-hero-jg\"><div><div><picture></picture></div><div><h2></h2><p></p></div><div><p></p></div></div><div><div>cta-button-color</div><div></div></div><div><div>cta-text-color</div><div></div></div></div>"
             }
           }
         },
